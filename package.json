@@ -1,0 +1,25 @@
+{
+  "name": "oleksiiyenner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "protractor conf.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "eslint": "npx eslint tests/**  entities/** pages/** --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jasmine": "^2.9.2",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-protractor": "^1.40.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
